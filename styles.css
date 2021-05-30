@@ -1,0 +1,104 @@
+h1 {
+  margin-top: 100px;
+  color: whitesmoke;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-image: url("images/136632.jpg");
+  width: 475px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  bottom: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+p {
+  color: whitesmoke;
+  font-size: 20px;
+}
+div.centerMe {
+  text-align: center;
+}
+div.centerMetwo {
+  text-align: center;
+  margin-top: 100px;
+}
+a.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 10px;
+  background-color: rgb(10, 10, 10, 0.7);
+  border: 2px outset l#2d2d2d;
+  cursor: default;
+  font-size: 30px;
+  border-radius: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a.button:active {
+  border-style: inset;
+}
+.glow-button:hover {
+  cursor: pointer;
+  background-color: rgb(97, 97, 97, 0.7);
+  transform: scaley(1.05);
+  transform-origin: bottom;
+}
+.glow-button:hover:hover p {
+  transform: scalex(1.1);
+}
+img.resize {
+  width: 100px;
+  height: 100px;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.box {
+  height: 170px;
+  padding-bottom: 15px;
+  width: 50%;
+}
+
+.ourMission {
+  line-height: 30px;
+  text-align: center;
+  background-color: rgb(10, 10, 10, 0.7);
+  width: 475px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  bottom: 0px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 10px 10px 40px black;
+}
+
+.ourMission:hover p {
+  transform: scalex(1.1);
+}
+
+.ourMission:hover {
+  transform: scaley(1.01);
+  transform-origin: bottom;
+}
