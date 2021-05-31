@@ -1,0 +1,39 @@
+a.button {
+  padding: 3px;
+  cursor: pointer;
+  width: 18%;
+  background-color: rgb(10, 10, 10, 0.7);
+  border: 2px outset l#2d2d2d;
+  cursor: default;
+  font-size: 30px;
+  border-radius: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a.button:active {
+  border-style: inset;
+}
+.glow-button:hover {
+  cursor: pointer;
+  background-color: rgb(97, 97, 97, 0.7);
+  transform: scaley(1.05);
+  transform-origin: bottom;
+}
+.glow-button:hover:hover p {
+  transform: scalex(1.1);
+}
+#ownLayer {
+  padding-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 10px 10px 25px rgb(27, 27, 27);
+}
+#buttonLayer {
+  width: 100%;
+  text-align: center;
+  text-shadow: 10px 10px 20px black;
+}
