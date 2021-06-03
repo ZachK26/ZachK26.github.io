@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("1m2.jpg");
+  background-size: 1920px;
+}
+
+.makeMeSomeSpace {
+  padding: 30px;
+  background-color: whitesmoke;
+  display: block;
+  float: left;
+}
+.changeSizeOfInput {
+  font-size: 20px;
+  height: 10%;
+  width: 5%;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+a.button {
+  padding: 3px;
+  cursor: pointer;
+  width: 18%;
+  background-color: rgb(10, 10, 10, 0.7);
+  border: 2px outset l#2d2d2d;
+  cursor: default;
+  font-size: 13px;
+  border-radius: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+  cursor: pointer;
+  background-color: rgb(97, 97, 97, 0.7);
+  transform: scaley(1.05);
+  transform-origin: bottom;
+}
+.glow-button:hover:hover p {
+  transform: scalex(1.1);
+}
+.flipper {
+  display: block;
+  float: center;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+.flipper:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+  transform: scaley(1.01);
+  transform-origin: bottom;
+}
+p {
+  height: auto;
+  width: auto;
+}
+.centerMe {
+  padding: 2%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  float: left;
+}
+.makeTextInputSmaller {
+  width: 100%;
+}
+p.button {
+  transition: all 0.2s ease-in-out;
+}
+.centerContainer {
+  vertical-align: center;
+}
+#cardOneTerm {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardTwoTerm {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardThreeTerm {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardFourTerm {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cardFiveTerm {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+#hideMeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hideMeButton.hide {
+  opacity: 0;
+}
+.makeMeSomeSpaceTwo {
+  justify-content: center;
+  margin: auto;
+  margin-left: 44%;
+  transition: all 0.5s linear;
+  border-radius: 10px;
+}
+#hideMe {
+  padding: 54px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

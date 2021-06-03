@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesForNotecard/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Notecard!</title>
+  </head>
+  <body style="font-family: 'Montserrat', sans-serif">
+    <h1>Enter 5 terms and definitions to study</h1>
+
+    <div class="centerContainer makeMeSomeSpaceTwo">
+      <p>
+        <a href="#" id="hideMeButton" class="glow-button button"
+          >Toggle Input Chart</a
+        >
+      </p>
+    </div>
+    <div class="centerMe noselect">
+      <p
+        id="cardOneTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+
+    <div class="centerMe noselect">
+      <p
+        id="cardTwoTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+    <div class="centerMe noselect">
+      <p
+        id="cardThreeTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+
+    <div class="centerMe noselect">
+      <p
+        id="cardFourTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+
+    <div class="centerMe noselect">
+      <p
+        id="cardFiveTerm"
+        class="flipper button glow-button centerContainer"
+      ></p>
+    </div>
+    <div id="hideMe">
+      <!--set 1-->
+      <div class="makeMeSomeSpace">
+        <input
+          type="text"
+          id="termOne"
+          placeholder="Term"
+          class="makeTextInputSmaller"
+        />
+        <input
+          type="text"
+          id="definitionOne"
+          placeholder="Definition"
+          class="makeTextInputSmaller"
+        />
+        <p>
+          <a href="#" id="submitOne" class="glow-button button">Submit</a>
+        </p>
+      </div>
+      <!--set 2-->
+      <div class="makeMeSomeSpace">
+        <input
+          type="text"
+          id="termTwo"
+          placeholder="Term"
+          class="makeTextInputSmaller"
+        />
+        <input
+          type="text"
+          id="definitionTwo"
+          placeholder="Definition"
+          class="makeTextInputSmaller"
+        />
+        <p>
+          <a href="#" id="submitTwo" class="glow-button button">Submit</a>
+        </p>
+      </div>
+      <!--set 3-->
+      <div class="makeMeSomeSpace">
+        <input
+          type="text"
+          id="termThree"
+          placeholder="Term"
+          class="makeTextInputSmaller"
+        />
+        <input
+          type="text"
+          id="definitionThree"
+          placeholder="Definition"
+          class="makeTextInputSmaller"
+        />
+        <p>
+          <a href="#" id="submitThree" class="glow-button button">Submit</a>
+        </p>
+      </div>
+      <!--set 4-->
+      <div class="makeMeSomeSpace">
+        <input
+          type="text"
+          id="termFour"
+          placeholder="Term"
+          class="makeTextInputSmaller"
+        />
+        <input
+          type="text"
+          id="definitionFour"
+          placeholder="Definition"
+          class="makeTextInputSmaller"
+        />
+        <p>
+          <a href="#" id="submitFour" class="glow-button button">Submit</a>
+        </p>
+      </div>
+      <!--set 5-->
+      <div class="makeMeSomeSpace">
+        <input
+          type="text"
+          id="termFive"
+          placeholder="Term"
+          class="makeTextInputSmaller"
+        />
+        <input
+          type="text"
+          id="definitionFive"
+          placeholder="Definition"
+          class="makeTextInputSmaller"
+        />
+        <p>
+          <a href="#" id="submitFive" class="glow-button button">Submit</a>
+        </p>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
